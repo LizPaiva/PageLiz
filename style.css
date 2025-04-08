@@ -1,0 +1,102 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: papayawhip;
+    
+}
+
+h1{
+    color: black;
+    text-align: center;
+}
+
+#menu{
+    text-align: center;
+}
+
+#menu a{
+    text-decoration: none;
+    color: black;
+}
+
+#menu a:hover {
+    color: white;
+    text-decoration: none; 
+}
+
+
+#Sobre-mi{
+    text-align: center;
+}
+
+#Sobre-mi p {
+    margin-left: 350px;
+    margin-right: 200px;
+    margin-bottom: 30px; 
+}
+
+#Sobre-mi p{
+    margin-left: 350px;
+    margin-right: 200px;
+}
+
+#Sobre-mi,
+#Hobbies,
+#Contacto {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+#items{
+    list-style: none;
+}
+
+#Hobbies{
+    text-align: center;
+}
+
+#Hobbies li {
+    margin: 5px 0;
+    text-align: center;
+}
+
+#menu ul {
+    list-style: none;         
+    display: flex;           
+    justify-content: center;  
+    background-color: violet;
+    margin: 0;
+    padding: 10px 0;
+}
+
+#menu li {
+    margin: 0 20px;         
+}
+
+
+#foto-liz {
+    width: 150px;        
+    height: auto;         
+    display: block;
+    margin: 0 auto;      
+    border-radius: 0;    
+}
+
+
+button {
+    background-color: violet; 
+    color: white; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 8px; 
+    cursor: pointer; 
+    font-size: 16px;
+}
+
+#Contacto{
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    background-color: violet;
+}
